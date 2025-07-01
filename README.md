@@ -47,7 +47,7 @@ By leveraging real customer data, machine learning (XGBoost), and SHAP explainab
 ## 🧠 ML Modeling Highlights
 
 - ✅ Feature Engineering with Pipeline  
-- ✅ Handling Class Imbalance using **SMOTE**  
+- ✅ Handling Class Imbalance using **SMOTE** & **Over Sampling** 
 - ✅ Model selection with **XGBoost Classifier**  
 - ✅ Performance tuning & 5-Fold Cross-Validation  
 - ✅ Interpretability with **SHAP**  
@@ -58,9 +58,8 @@ By leveraging real customer data, machine learning (XGBoost), and SHAP explainab
 
 | Evaluation Type            | Accuracy | Precision (Churn) | Recall (Churn) | ROC AUC |
 |----------------------------|----------|-------------------|----------------|---------|
-| Hold-Out (80/20)           | 95%      | 92%               | 80%            | 0.956   |
 | CV (60/20/20, no SMOTE)    | 93%      | 87%               | 71%            | 0.942   |
-| ✅ Final Model (SMOTE + XGB) | **97%**  | **98%**           | **97%**        | **0.996** |
+| Final Model (SMOTE + XGB) | **97%**  | **98%**           | **97%**        | **0.996** |
 
 > 📌 **Result**: Final model can detect 96+ churners out of 100 with minimal false alarms.
 
@@ -83,19 +82,8 @@ By leveraging real customer data, machine learning (XGBoost), and SHAP explainab
 | New users (Tenure < 3 mo)| Welcome campaign, onboarding cashback    | ⬆️ Retention    |
 | Complainers              | Auto follow-up + apology voucher         | ⬇️ Churn        |
 | Inactive users           | Re-engagement promo after 30 days        | ⬆️ Repeat order |
-| Distant delivery zones   | Optimize last-mile logistics             | ⬆️ Loyalty      |
 
 ---
-
-## 💰 Cost–Benefit Overview
-
-| Metric                   | Estimate          |
-|--------------------------|-------------------|
-| Total Project Cost       | Rp 130 million    |
-| Monthly Retention Value  | Rp 216 million    |
-| Net Monthly Benefit      | **+ Rp 86 million** |
-| Payback Period           | ~2 months         |
-| ROI                     | **66%**            |
 
 > 💡 Retaining 96 churners per month at 1.5M value = significant recurring impact.
 
