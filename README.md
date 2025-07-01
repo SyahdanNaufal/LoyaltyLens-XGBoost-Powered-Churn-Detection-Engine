@@ -8,6 +8,9 @@
 
 ---
 SYAHDAN NAUFAL NUR IHSAN - JCDSAH-0108
+LINK DRIVE : https://drive.google.com/drive/folders/1LzTC86RwlqQXphr0HI-droqVLhVIrJDS?usp=sharing
+Notebook: https://drive.google.com/file/d/1HEQUXiUn585ALnDpbveHUqukpP7T10Fu/view?usp=sharing
+
 
 ## 🚀 Project Summary
 
