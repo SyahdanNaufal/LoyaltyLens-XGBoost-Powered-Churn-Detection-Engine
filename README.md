@@ -1,5 +1,3 @@
-# LoyaltyLens-XGBoost-Powered-Churn-Detection-Engine
-
 # 🔮 ChurnShield – Predicting & Preventing Customer Churn in E-Commerce
 
 > A machine learning–powered solution to **detect at-risk customers**, generate actionable insights, and drive **retention-focused marketing** in the e-commerce space.
@@ -9,6 +7,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
+SYAHDAN NAUFAL NUR IHSAN - JCDSAH-0108
 
 ## 🚀 Project Summary
 
